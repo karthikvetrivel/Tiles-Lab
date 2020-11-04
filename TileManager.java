@@ -33,7 +33,7 @@ public class TileManager {
     public void raise(int x, int y) {
         int selectedIndex = findTopTile(x, y);
         if (selectedIndex >= 0) {
-            tileList.add tileList.get(selectedIndex));
+            tileList.add(tileList.get(selectedIndex));
             tileList.remove(selectedIndex);
         }
     }
