@@ -84,7 +84,7 @@ public class TileManager {
     window. 
     */
     public void shuffle(int width, int height) { 
-        Collections.shuffle tileList);
+        Collections.shuffle(tileList);
 
         for (Tile tile : tileList) {
             tile.setX((int)(Math.random() * (double)(width - tile.getWidth() + 1)));
