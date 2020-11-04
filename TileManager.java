@@ -1,7 +1,7 @@
 // Karthik Vetrivel
-// Post-AP CS: Data Structures
+// Post-AP CS: Data Structures D block
 // November 3rd, 2020
-
+// Tile Application Method Manager.
 
 import java.util.*; 
 import java.awt.*; 
@@ -96,6 +96,7 @@ public class TileManager {
     /*
     Helper function. Determines the top-most tile at any given coordinate.
     Accepts two integer parameters, x and y, which determine where the top-most tile is located.
+    Returns the index in the titeList of top-most tile. 
     */
     private int findTopTile(int x, int y) {
         for (int i = tileList.size() - 1; i >= 0; i--) {
