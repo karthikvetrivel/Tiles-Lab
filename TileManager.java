@@ -1,7 +1,9 @@
 // Karthik Vetrivel
 // Post-AP CS: Data Structures D block
 // November 3rd, 2020
-// Tile Application Method Manager.
+/*This program manages a list 
+// of Tiles, allowing the user to draw tiles,
+delete them, add new tiles, and shuffle tiles.*/
 
 import java.util.*; 
 import java.awt.*; 
